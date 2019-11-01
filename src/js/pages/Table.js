@@ -54,7 +54,7 @@ class Table extends Component {
           onClick={() => this.toggleActive(i)}
           >
              <td onClick={()=>this.setState({adress : adress})}>{firstName}</td>
-             <td>{lastName}</td>
+             <td onClick={()=>this.setState({adress : adress})}>{lastName}</td>
              
           </tr>
        )
